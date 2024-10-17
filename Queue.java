@@ -23,4 +23,8 @@ public class Queue<T> {
         //     first = last;
         return item;
     }
+    
+    public T peek() {
+        return first.item;
+    }
 }
